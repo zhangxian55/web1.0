@@ -1,0 +1,425 @@
+.inner{
+	width: 960px;
+	margin: 0 auto;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg4.jpg) ;
+  background-attachment: fixed;
+}
+a{
+	text-decoration: none;
+}
+.game a{
+  display: block;
+  position: absolute;
+  background:#89B369;
+  color: #333;
+  width: 80px;
+  height:40px;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+  right:40px;
+}
+.game a.game1{
+  bottom:80px;
+}
+.game a.game2{
+  bottom: 140px;
+}
+ .nav{
+  width: 100%;
+  height: 20px;
+  position: relative;
+ }
+.nav .logo{
+  position: absolute;
+  left: 20px;
+  top:10px;
+}
+.carousel{
+      width: 926px;
+      height: 450px;
+      margin: 30px auto;
+      position: relative;
+      overflow: hidden;
+    }
+    .carousel p{
+      text-align: center;
+      width: 470px;
+      height: 30px;
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      margin-left: -220px;
+      color: #fff;
+      font-size: 26px;
+      line-height: 30px;
+    }
+    .carousel p
+    .carousel:hover p{
+      color: red;
+    }
+    .carousel .images ul{
+      list-style: none;
+    }
+    .carousel .images ul li{
+      position: absolute;
+    }
+    .carousel .images ul li a b{
+      display: block;
+      height: 40px;
+      width: 100%;
+      text-align: center;
+      line-height: 40px;
+      font-size: 20px;
+      background: rgba(0,0,0,0.6);
+    }
+    .carousel .images ul li a b{
+      position: absolute;
+      bottom:0;
+      left:0;
+    }
+    .carousel .images ul li.waiting{
+      display: none;
+    }
+    .carousel .images ul li.no0{
+        width: 176px;
+        height: 230px;
+        left: -120px;
+        top: 70px;
+        opacity: 0;
+      }
+    .carousel .images ul li.no1{
+        width: 176px;
+        height: 270px;
+        left: 0px;
+        top: 50px;
+
+    }
+    .carousel .images ul li.no2{
+      width: 240px;
+        height: 320px;
+        left: 140px;
+        top: 25px;
+         z-index: 888;
+    }
+    .carousel .images ul li.no3{
+      width: 276px;
+        height: 370px;
+        left: 330px;
+        top: 0px;
+        z-index: 999;
+    }
+    .carousel .images ul li.no4{
+      width: 240px;
+        height: 320px;
+        left: 550px;
+        top: 25px;
+        z-index: 888;
+    }
+    .carousel .images ul li.no5{
+      width: 176px;
+        height: 270px;
+        left: 750px;
+        top: 50px;
+    }
+    .carousel .images ul li.no6{
+      width: 176px;
+        height: 230px;
+        left: 870px;
+        top: 70px;
+        opacity: 0;
+    }
+    .carousel .images ul li img{
+      width: 100%;
+      height: 100%;
+    }
+  .carousel  .btns a{
+      position: absolute;
+      width: 100px;
+      height: 230px;
+      top: 80px;
+      background: url(../images/banner/btn1.png) no-repeat center left;
+      z-index: 1000;
+    }
+  .carousel  .btns a.leftBtn{
+      left: 10px;
+    }
+  .carousel  .btns a.rightBtn{
+      right: 0;
+      background: url(../images/banner/btn2.png) no-repeat center right;
+
+    }
+  .carousel  .circles{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 400px;
+      margin-left: -120px;
+    }
+    .carousel .circles ol{
+      list-style: none;
+    }
+   .carousel .circles ol li{
+      float: left;
+      width: 20px;
+      height: 20px;
+      background-color: #333;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  .carousel  .circles ol li.cur{
+      background-color: skyblue;
+    }
+    .mask{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: black;
+      opacity: 0.6;
+    }
+ .content{
+ 	overflow: hidden;
+ 	margin-top: 44px;
+  position: relative;
+ }
+
+    .cot-min{
+        padding-bottom: 20px;
+        border-bottom: 1px dashed #999999;
+        width:960px;
+        overflow: hidden;
+       }
+      .min-1{
+        margin-left: 15px;
+        width: 910px;
+        height: 60px;
+         background: #ccc;
+         border-radius: 5px;
+        position: absolute;
+         left: 0;
+         top:0px;
+       }
+       .min-2{
+        position: absolute;
+        top:400px;
+       }
+       .min-3{
+        position: absolute;
+        top:780px;
+       }
+        .min-1 p{
+          position: absolute;
+          right:0;
+          bottom: 0;
+          height: 20px;
+          width: 120px;
+          color: red;
+          font-size: 12px;
+          display: none;
+        }
+          .min-1:hover p{
+          display: block;
+         }
+           .min-1:hover h2{
+          color: red;
+         }
+
+      .min-1 h2{
+        font-size: 26px;
+        padding: 20px;
+        line-height: 30px;
+        color: #333;
+       }
+      .box{
+       float: left;
+      width: 275px;
+      height: 254px;
+      margin: 70px 20px;
+      overflow: hidden;
+      position: relative;
+ 
+    }
+    .box ul{
+      list-style: none;
+    }
+    .box ul li{
+      position: absolute;
+      top: 0;
+      left: 275px;
+    }
+    .box ul li.first{
+      left: 0;
+    }
+
+    .box .btns a{
+      position: absolute;
+      width: 30px;
+      height: 70px;
+      top: 50%;
+      margin-top: -35px;
+      background-color: rgba(0,0,0,.6);
+      text-align: center;
+      line-height: 70px;
+      text-decoration: none;
+      font-size: 24px;
+      color:white;
+    }
+    .btns a.leftBtn{
+      left: 0px;
+    }
+    .box .btns a.rightBtn{
+      right:0px;
+    }
+   .box  .circles{
+      position: absolute;
+      bottom: 30px;
+      width: 150px;
+      height: 20px;
+      margin-left: 70px;
+    }
+  .box   .circles ol{
+      list-style: none;
+    }
+   .box  .circles ol li{
+      float: left;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      background-color: #ccc;
+      border-radius: 50%;
+    }
+   .box  .circles ol li.cur{
+      background-color: skyblue;
+    }
+   .box  .circles ol li.last{
+      margin-right: 0;
+    }
+    .box p{
+      height: 30px;
+      width: 275px;
+      background: #ccc;
+      color: #333;
+      font-size: 20px;
+      text-align: center;
+      position: absolute;
+      bottom:0;
+      left: 0;
+      border-radius:0 0 5px 5px;
+    }
+    .box:hover p{
+      background: black;
+      color: red;
+    }
+      
+
+
+
+
+
+            .content .cot-min  ul li img{
+               -webkit-transition: all 0.2s;
+                -webkit-filter: grayscale(100%);
+            }
+
+       .content .cot-min  ul li img:hover{
+            
+                -webkit-filter: grayscale(0%);
+            }
+             .content .cot-min  ul li a:hover{
+              color: #D54746;
+             }
+    .new{
+      position: relative;
+      margin-top: 20px;
+    }
+
+     .new .new1{
+      color: red;
+      height: 220px;
+      width: 98%;
+     border-radius: 10px;
+      padding:10px;
+      position: relative;
+      background-color: rgba(234,226,253,0.6);
+
+     } 
+      .new:hover{
+        color: white;
+      }
+      .new:hover{
+        background: black;
+      }
+    .new .new1 p{
+      float: left;
+      width: 270px;
+      height: 200px;
+    }
+     .new .new1 a{
+      display: block;
+      float: left;
+     }
+      .new .new1 a.a1{
+      height: 40px;
+      width: 600px;
+     }
+      .new .new1 a.a1 h2{
+        font-size: 24px;
+        text-align: center;
+        
+      }
+     .new .new1 a.a2{
+      text-indent: 2em;
+      height: 80px;
+      width: 600px;
+      line-height: 20px;
+      color: #333;
+     }
+     .new .new1 .spans{
+    position: absolute;
+    bottom: 10px;
+    right:0px;
+    height: 40px;
+    width: 290px;
+    font-size: 14px;
+    color: black;
+     }
+     .new .new1 span.ps{
+         height: 40px;
+         width: 40px;
+         position: absolute;
+         right:80px;
+         top:10px;
+      }
+      .new .new1 span.p1{
+        height: 20px;width: 160px;
+         position: absolute;
+          right: 80px;
+          top:0px;
+      }
+      .new .new1 span.p2{
+         height: 20px;width: 120px;
+         position: absolute;
+         right: 120px;
+          top:25px;
+      }
+      .footer{
+        margin-top: 20px;
+        height: 40px;
+        width: 1366px;
+        background: #ccc;
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        line-height: 40px;
+        position: relative;
+      }
+       .footer .logo{
+        position: absolute;
+        bottom: 40px;
+       }
